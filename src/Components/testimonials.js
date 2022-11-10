@@ -5,8 +5,8 @@ export default function Testimonials(){
         <div className="testimonials-div">
             <img src="images/bg-quotes.png" alt="" />
             {data.map(item => (
-                <div className="bg-card">
-                    <div key={item.id} className="map-div">
+                <div key={item.id} className="bg-card">
+                    <div className="map-div">
                         <p>{item.text}</p>
                         <div className="map-row">
                             <div>

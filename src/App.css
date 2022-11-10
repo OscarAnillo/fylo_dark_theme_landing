@@ -215,7 +215,7 @@ img {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  padding-bottom: 1em;
+  padding-bottom: 2.5em;
 }
 .email-section form input {
   border: none;
@@ -226,7 +226,7 @@ img {
   margin-bottom: 1.5em;
 }
 .email-section form input::placeholder {
-  color: #000;
+  color: rgb(196, 196, 196);
   padding: 0 1em;
 }
 .email-section form button {
