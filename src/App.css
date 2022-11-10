@@ -113,3 +113,130 @@ img {
   font-size: .9rem;
   line-height: 1.5em;
 }
+
+/* ProductiveComponent */ 
+.productive {
+  padding-top: 8em;
+  text-align: left;
+}
+.productive div img {
+  margin-bottom: 2em;
+}
+.productive h2 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-bottom: 1em;
+}
+.productive p {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding-bottom: 1em;
+}
+.productive-row {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  padding-bottom: 1em;
+  height: 5px;
+  width: 45%;
+}
+.productive button {
+  border: none;
+  background: transparent;
+  color: aqua;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; 
+  margin-right: 1em;
+}
+
+/* Testimonials */
+.testimonials-div {
+  /* border: 1px solid red; */
+  margin-top: 12em;
+  text-align: left;
+}
+.bg-card {
+  background: rgb(33, 41, 60);
+  border-radius: 5px;
+  margin: 2em 0;
+  padding: .5em 0;
+}
+.map-div {
+  width: 85%;
+  margin: 2.5em auto;
+}
+.map-div p {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; 
+  font-size: .8rem;
+  padding-bottom: 1.5em;
+}
+.map-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.map-row > div:nth-child(1) {
+  width: 25%;
+  margin-right: .2em;
+}
+.map-row img {
+  border-radius: 50px;
+  width: 70%;
+}
+.map-row h3 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin: .2em 0;
+}
+
+/* EmailComponent */
+.email-section {
+  background-color: rgb(27, 35, 48);
+  border-radius: 5px;
+  padding: 2.5em 0;
+  margin-top: 10em;
+}
+.email-section div {
+  width: 90%;
+  margin: auto;
+}
+.email-section div h2 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding-bottom: 1em; 
+}
+.email-section div p {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding-bottom: 1em;
+}
+.email-section form input {
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  padding: 1.5em 0;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+.email-section form input::placeholder {
+  color: #000;
+  padding: 0 1em;
+}
+.email-section form button {
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(62, 175, 207);
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding: 1.5em 0;
+  width: 100%;
+}
