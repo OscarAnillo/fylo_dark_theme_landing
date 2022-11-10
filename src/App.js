@@ -1,10 +1,11 @@
+import NavComponent from './Components/nav-component';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Oscar Anillo</h1>
-      <p>Wb UI Developer</p>
+      <NavComponent />
     </div>
   );
 }
