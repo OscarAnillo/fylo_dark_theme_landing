@@ -16,6 +16,10 @@ font-family: 'Raleway', sans-serif;
   background-color: hsl(218, 28%, 13%);
   min-height: 100vh;
 }
+.container {
+  width: 90%;
+  margin: auto;
+}
 img {
   max-width: 100%;
 }
@@ -29,13 +33,13 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 2em 0;
-  text-align: left;
 }
 .nav-section > div {
   /* border: 1px solid red; */
   width: 100%;
 }
 .nav-section > div:nth-child(1){
+  text-align: left;
   width: 50%;
 }
 .nav-section > div:nth-child(2){
@@ -46,6 +50,7 @@ img {
 }
 .nav-section ul {
   display: flex;
+  justify-content: space-between;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
@@ -83,4 +88,28 @@ img {
   font-weight: 700;
   padding: 1.3em 2em;
   width: 80%;
+}
+
+/* PerksComponent */
+.perks {
+  margin: 11em 0 0 0;
+}
+
+.perks .perkes-map-data {
+  margin-bottom: 4em;
+  padding: 1em 0;
+}
+
+.perks .perkes-map-data h2 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding: .5em 0;
+}
+.perks .perkes-map-data p {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: .9rem;
+  line-height: 1.5em;
 }
