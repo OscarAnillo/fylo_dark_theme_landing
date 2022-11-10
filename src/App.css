@@ -182,7 +182,6 @@ img {
 }
 .map-row > div:nth-child(1) {
   width: 25%;
-  margin-right: .2em;
 }
 .map-row img {
   border-radius: 50px;
@@ -222,8 +221,8 @@ img {
   border: none;
   border-radius: 30px;
   outline: none;
-  padding: 1.5em 0;
-  width: 100%;
+  padding: 1.5em 1em;
+  width: 90%;
   margin-bottom: 1.5em;
 }
 .email-section form input::placeholder {
@@ -239,4 +238,46 @@ img {
   font-weight: 700;
   padding: 1.5em 0;
   width: 100%;
+}
+
+/* FooterComponent */
+.footer {
+  /* border: 1px solid red; */
+  text-align: left;
+  padding: 3em 1em;
+  margin-top: 6em;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.footer-inner-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1.5em 0;
+}
+.footer-inner-row > div:nth-child(1) {
+  /* border: 1px solid red; */
+  width: 10%;
+}
+.footer-inner-row > div:nth-child(2) {
+  /* border: 1px solid red; */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  width: 75%;
+}
+.footer-second-div, .footer-third-div {
+  margin: 3em 0;
+}
+.footer-second-div ul li, .footer-third-div ul li {
+  margin-bottom: 1.6em;
+}
+.footer .socials {
+  text-align: center;
+}
+.footer .socials svg {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  padding: .5em;
+  margin: .5em;
 }

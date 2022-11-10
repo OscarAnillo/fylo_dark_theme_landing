@@ -4,6 +4,7 @@ import PerksComponent from './Components/perks-component';
 import ProductiveComponent from './Components/productive-component';
 import Testimonials from './Components/testimonials';
 import EmailComponent from './Components/email-component';
+import FooterComponent from './Components/footer-component';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
         <Testimonials />
         <EmailComponent />
       </div>
+      <FooterComponent />
     </div>
   );
 }
