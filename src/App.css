@@ -196,6 +196,7 @@ img {
   border-radius: 5px;
   padding: 2.5em 0;
   margin-top: 10em;
+  position: relative;
 }
 .email-section div {
   width: 90%;
@@ -234,6 +235,15 @@ img {
   font-weight: 700;
   padding: 1.5em 0;
   width: 100%;
+}
+.email-section .error {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: .8rem;
+  position: absolute;
+  top: 70.5%;
+  left: 10%;
 }
 
 /* FooterComponent */
@@ -458,6 +468,15 @@ img {
   .email-section form button {
     width: 30%;
   }
+  .email-section .error {
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    position: absolute;
+    top: 81%;
+    left: 10%;
+  }
 
   /* FooterComponent */
   .footer {
@@ -477,7 +496,6 @@ img {
   }
   .footer-row > div {
     width: 100%;
-    /* border: 1px solid red; */
   }
   .footer-row > div:nth-child(1) {
     width: 130%;
