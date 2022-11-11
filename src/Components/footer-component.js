@@ -3,40 +3,38 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 export default function FooterComponent(){
     return (
         <footer className="footer">
-            <div>
+                <img src="images/logo.svg" alt="" />
+            <div className="footer-row">
                 <div>
-                    <img src="images/logo.svg" alt="" />
                     <div className="footer-inner-row">
                         <div>
                             <img src="images/icon-location.svg" alt="" />
                         </div>
                         <div>
-                            <p>
+                            <p className='lorem'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                             </p>
                         </div>
                     </div>
-                    <div className="footer-inner-row">
-                        <div>
-                            <img src="images/icon-phone.svg" alt="" />
-                        </div>
-                        <div>
-                            <p>
-                                +1-543-123-4567
-                            </p>
-                        </div>
-                    </div>
-                    <div className="footer-inner-row">
-                        <div>
-                            <img src="images/icon-email.svg" alt="" />
-                        </div>
-                        <div>
-                            <p>
-                                example@fylo.com
-                            </p>
-                        </div>
-                    </div>
                 </div>
+                <div>
+                    <div className="footer-inner-row">
+                        <div>
+                            <img src="images/icon-phone.svg" alt="" />    
+                        </div>
+                        <div>
+                            <p>+1-543-123-4567</p>
+                        </div>    
+                    </div>
+                    <div className="footer-inner-row">
+                        <div>
+                            <img src="images/icon-email.svg" alt="" />    
+                        </div>
+                        <div>
+                            <p>example@fylo.com</p>
+                        </div>
+                    </div>
+                </div>           
                 <div className="footer-second-div">
                     <ul>
                         <li>About Us</li>

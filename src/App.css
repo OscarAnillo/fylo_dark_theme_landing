@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
-/* 
-font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
-*/
-
 * {
   margin: 0;
   padding: 0;
@@ -70,14 +65,14 @@ img {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   line-height: 1.5em;
-  padding: 1em 0;
+  padding: 1em 0 .4em 0;
 }
 .hero-wrapper p {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.5em;
-  padding-bottom: 1.4em;
+  padding-bottom: 1.6em;
 }
 .hero-wrapper button {
   background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
@@ -94,24 +89,25 @@ img {
 .perks {
   margin: 11em 0 0 0;
 }
-
-.perks .perkes-map-data {
+.perks .perks-map-data {
   margin-bottom: 4em;
   padding: 1em 0;
 }
 
-.perks .perkes-map-data h2 {
+.perks .perks-map-data h2 {
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   padding: .5em 0;
 }
-.perks .perkes-map-data p {
+.perks .perks-map-data p {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: .9rem;
+  font-size: 1rem;
   line-height: 1.5em;
+  margin: auto;
+  width: 66%;
 }
 
 /* ProductiveComponent */ 
@@ -280,4 +276,236 @@ img {
   border-radius: 50px;
   padding: .5em;
   margin: .5em;
+}
+
+@media(min-width: 1000px) {
+  .container {
+    width: 70%;
+  }
+  /* NavComponent */
+  .nav-section {
+    width: 90%;
+    padding: 3em 0;
+  }
+
+  .nav-section > div:nth-child(1){
+    text-align: left;
+    width: 40%;
+  }
+  .nav-section > div:nth-child(2){
+    width: 20%;
+  }
+  .nav-section img {
+    width: 25%;
+  }
+  .nav-section ul li {
+    margin-left: 0;
+    font-size: 1rem;
+  }
+
+  /* HeroComponent */
+  .hero-wrapper {
+    width: 40%;
+    margin: auto;
+  }
+  .hero-wrapper h1 {
+    font-size: 2.6rem;
+    line-height: 1.5em;
+  }
+  .hero-wrapper p {
+    font-size: 1.1rem;
+    padding-bottom: 1.5em;
+  }
+  .hero-wrapper button {
+    font-size: 1.1rem;
+    padding: 1em 2em;
+    width: 40%;
+  }
+  /* PerksComponent */
+  .perks {
+    margin: 11em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .perks > div {
+    /* border: 1px solid red; */
+    width: 49.5%;
+  }
+
+  .perks .perkes-map-data {
+    margin-bottom: 7em;
+    padding: 1em 0;
+  }
+
+  .perks .perkes-map-data h2 {
+    padding: 1em 0;
+  }
+  .perks .perkes-map-data p {
+    font-size: 1rem;
+    width: 50%;
+    margin: auto;
+  }
+  /* ProductiveComponent */ 
+  .productive {
+    padding-top: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  .productive > div {
+    width: 100%;
+  }
+  .productive > div:nth-child(1) {
+    margin-right: 1em;
+  }
+  .productive div img {
+    margin-bottom: 0em;
+    width: 95%;
+  }
+  .productive h2 {
+    font-size: 2.9rem;
+    padding-bottom: .5em;
+    width: 60%;
+  }
+  .productive p {
+    font-size: 1.1rem;
+    padding-bottom: 1.5em;
+    width: 100%;
+  }
+  .productive-row {
+    padding-bottom: 1em;
+    width: 23%;
+  }
+  
+  /* Testimonials */
+  .testimonials-div {
+    /* border: 1px solid red; */
+    margin-top: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    position: relative;
+  }
+  .testimonials-div .quotes {
+    position: relative;
+    top: -150px;
+    left: 5%;
+    z-index: 1;
+  }
+  .bg-card {
+    margin: 2em 1em;
+    padding: .5em 0;
+  }
+  .map-div {
+    width: 85%;
+    margin: 2.5em auto;
+  }
+  .map-div p {
+    font-size: 1rem;
+    padding-bottom: 1.5em;
+  }
+  .map-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .map-row > div:nth-child(1) {
+    width: 20%;
+  }
+  .map-row img {
+    border-radius: 50px;
+    width: 70%;
+  }
+  .map-row h3 {
+    margin: .5em 0 0 0;
+  }
+  .map-row .position {
+    font-size: .7rem;
+  }
+
+  
+  /* EmailComponent */
+  .email-section {
+    padding: 3em 0;
+    width: 70%;
+    margin: 6em auto;
+    position: relative;
+    top: 250px;
+
+  }
+  .email-section div {
+    width: 90%;
+    margin: auto;
+  }
+  .email-section div h2 {
+    font-size: 2.5rem;
+  }
+  .email-section div p {
+    font-size: 1.1rem;
+  }
+  .email-section form input {
+    padding: 1.5em 1em;
+    width: 55%;
+    margin-right: 2em;
+  }
+  .email-section form input::placeholder {
+    padding: 0;
+  }
+  .email-section form button {
+    width: 30%;
+  }
+
+  /* FooterComponent */
+  .footer {
+    background-color: rgb(12, 21, 36);
+    text-align: left;
+    padding: 16em 7em 3em 7em;
+    margin-top: 0em;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+  .footer-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 4em;
+  }
+  .footer-row > div {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .footer-row > div:nth-child(1) {
+    width: 130%;
+  }
+  .footer-inner-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+  }
+  .footer-inner-row > div:nth-child(2) {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: .8em;
+  }
+  .footer-second-div, .footer-third-div {
+    margin: 0;
+  }
+  .footer-second-div ul li, .footer-third-div ul li {
+    margin-bottom: 1.6em;
+  }
+  .footer .socials {
+    text-align: center;
+  }
+  .footer .socials svg {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: .5em;
+    margin: 0 .5em;
+  }
 }

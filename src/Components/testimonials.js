@@ -3,7 +3,7 @@ import data from '../Data/data-testimonials.json';
 export default function Testimonials(){
     return (
         <div className="testimonials-div">
-            <img src="images/bg-quotes.png" alt="" />
+            <img src="images/bg-quotes.png" alt="" className="quotes" />
             {data.map(item => (
                 <div key={item.id} className="bg-card">
                     <div className="map-div">
@@ -14,7 +14,7 @@ export default function Testimonials(){
                             </div>
                             <div>
                                 <h3>{item.name}</h3>
-                                <p>{item.position}</p>
+                                <p className='position'>{item.position}</p>
                             </div>
                         </div>
                     </div>
