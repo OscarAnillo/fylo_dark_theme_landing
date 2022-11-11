@@ -1,0 +1,25 @@
+import data from '../Data/data-testimonials.json';
+
+export default function Testimonials(){
+    return (
+        <div className="testimonials-div">
+            <img src="images/bg-quotes.png" alt="" className="quotes" />
+            {data.map(item => (
+                <div key={item.id} className="bg-card">
+                    <div className="map-div">
+                        <p>{item.text}</p>
+                        <div className="map-row">
+                            <div>
+                                <img src={item.avatar} alt="" />
+                            </div>
+                            <div>
+                                <h3>{item.name}</h3>
+                                <p className='position'>{item.position}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            ))}
+        </div>
+    )
+}
