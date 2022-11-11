@@ -1,6 +1,8 @@
+import 'animate.css';
+
 export default function HeroComponent(){
     return (
-        <section>
+        <section className="animate__animated animate__fadeInUp">
             <div className="hero-wrapper">
                 <img src="images/illustration-intro.png" alt="" />
                 <h1>All your files in one secure location, accessible anywhere.</h1>
