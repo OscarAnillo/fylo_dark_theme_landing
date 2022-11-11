@@ -311,6 +311,12 @@ img {
   .nav-section ul li {
     margin-left: 0;
     font-size: 1rem;
+    transition: all .3s;
+  }
+  .nav-section ul li:hover {
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: underline;
   }
 
   /* HeroComponent */
@@ -330,6 +336,11 @@ img {
     font-size: 1.1rem;
     padding: 1em 2em;
     width: 40%;
+    transition: background .3s;
+  }
+  .hero-wrapper button:hover {
+    background: rgb(140, 218, 228);
+    cursor: pointer;
   }
   /* PerksComponent */
   .perks {
@@ -388,6 +399,11 @@ img {
   .productive-row {
     padding-bottom: 1em;
     width: 23%;
+  }
+  .productive-row:hover {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
   }
   
   /* Testimonials */
@@ -467,6 +483,11 @@ img {
   }
   .email-section form button {
     width: 30%;
+    transition: background .3s;
+  }
+  .email-section form button:hover {
+    background: rgb(140, 218, 228);
+    cursor: pointer;
   }
   .email-section .error {
     color: red;
@@ -517,6 +538,10 @@ img {
   .footer-second-div ul li, .footer-third-div ul li {
     margin-bottom: 1.6em;
   }
+  .footer-second-div ul li:hover, .footer-third-div ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
   .footer .socials {
     text-align: center;
   }
@@ -525,5 +550,10 @@ img {
     border-radius: 50px;
     padding: .5em;
     margin: 0 .5em;
+  }
+  .footer .socials svg:hover {
+    border: 1px solid rgb(140, 218, 228);
+    color: rgb(140, 218, 228);
+    cursor: pointer;
   }
 }
